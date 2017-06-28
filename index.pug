@@ -1,0 +1,180 @@
+//output:index.html, pretty:true
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1, User-scalable=no')
+    meta(charset='utf-8')
+    title Dreams
+    link(rel='stylesheet', href='font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='style/style.css')
+    script(src='https://code.jquery.com/jquery-3.2.1.js', integrity='sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=', crossorigin='anonymous')
+    script(src="js/index.js")
+  body.preloader(id="body")
+    div.preloader(id="preloader")
+      h1.logo Dreams
+    header.header-fix
+      div.header-nav
+        h1.logo Dreams
+        ul.navigation
+          span.navigation-item__link(onclick="") Home
+          span.navigation-item__link(onclick="scrollTo('services')") Services
+          span.navigation-item__link(onclick="scrollTo('portfolio')") Portfolio
+          span.navigation-item__link(onclick="scrollTo('about')") About
+          span.navigation-item__link(onclick="scrollTo('team')") Team
+          span.navigation-item__link(onclick="scrollTo('contact')") Contact
+      div.header-text
+        h1.header-text__title Build the website of your dreams
+        div.separator
+        p.header-text__description We are a digital agency that believes in building things that are  meaningful!
+    div.services-fix#services
+      div.services
+        h1.title Core Services
+        div.separator
+        div.services-inf
+          div.services-inf-item
+            img.services-inf-item__img.tool-img(src="img/tools.png")
+            h4.services-inf-item__title Beautiful Designs
+            p.services-inf-item__description Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
+          div.services-inf-item
+            img.services-inf-item__img(src="img/flow-tree.png")
+            h4.services-inf-item__title web development
+            p.services-inf-item__description Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
+      
+          div.services-inf-item
+            img.services-inf-item__img(src="img/lifebuoy.png")
+            h4.services-inf-item__title 24/7 Support
+            p.services-inf-item__description Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
+    div.expertise-fix
+      img.expertise__image(src="img/bag_coffe-cup.png")
+      div.expertise
+        div.expertise-text-area
+          h1.title Other Expertise
+          p.expertise-descriptiom Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt consequat sem cure  digni ssim. 
+          div.expertise-menu
+            div.expertise-menu-item.gear.expertise-before
+              h5.expertise-menu-item__title Custom setup
+              p.expertise-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+            div.expertise-menu-item.cloud.expertise-before 
+              h5.expertise-menu-item__title Cloud control
+              p.expertise-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+            div.expertise-menu-item.star.expertise-before
+              h5.expertise-menu-item__title All star support team
+              p.expertise-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+            div.expertise-menu-item.lock.expertise-before
+              h5.expertise-menu-item__title top notch security
+              p.expertise-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+          button.expertise-learn-more Learn more
+    div.portfolio-fix#portfolio
+      div.portfolio-mobile_img
+        img.portfolio-mobile-screen_img(src="img/mobile-screen.png")
+      div.portfolio
+        h1.title Amazing Portfolio
+        p.portfolio-description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+        p.portfolio-description Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.
+        div.portfolio-menu
+          div.portfolio-menu-item.gear.portfolio-before
+            h1.portfolio-menu-item__title Sail Away Your Worries
+            p.portfolio-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+          div.portfolio-menu-item.star.portfolio-before
+            h1.portfolio-menu-item__title All-star support team
+            p.portfolio-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+          div.portfolio-menu-item.pie.portfolio-before
+            h1.portfolio-menu-item__title fully Integrated service
+            p.portfolio-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+    div.image-block
+      img(src="img/image-1.png")
+      img(src="img/image-2.png")
+      img(src="img/image-3.png")
+      img(src="img/image-4.png")
+      img(src="img/image-5.png")
+      img(src="img/image-6.png")
+    div.about-us-fix#about
+      div.about-us
+        h1.title About us
+        div.separator
+        div.about-us-menu
+          div.about-us-menu-item
+            div.about-us-menu-item-text
+              h1.about-us-menu-item__title July 2010
+              h1.about-us-menu-item__title Our Humble Beginnings
+              p.about-us-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni  ssim. Donec porttitora entum suscipit.
+            img.about-us-menu-item__img(src="img/image.png")
+          div.about-us-menu-item.second
+            div.about-us-menu-item-text
+              h1.about-us-menu-item__title January 2011
+              h1.about-us-menu-item__title Facing Startup Battles
+              p.about-us-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni  ssim. Donec porttitora entum suscipit.
+            img.about-us-menu-item__img(src="img/image2.png")
+          div.about-us-menu-item
+            div.about-us-menu-item-text
+              h1.about-us-menu-item__title December 2012
+              h1.about-us-menu-item__title Enter The Dark Days
+              p.about-us-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni  ssim. Donec porttitora entum suscipit.
+            img.about-us-menu-item__img(src="img/image3.png")
+          div.about-us-menu-item.second
+            div.about-us-menu-item-text
+              h1.about-us-menu-item__title february 2014
+              h1.about-us-menu-item__title Our Triumph
+              p.about-us-menu-item__description Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni  ssim. Donec porttitora entum suscipit.
+            img.about-us-menu-item__img(src="img/image4.png")
+          a(href="#")
+            div.about-us-menu-itemd
+              div.about-us-menu-item-continue
+                p.about-us-menu-item-continue__description Our Story Continues ...
+    div.team-fix#team
+      div.team
+        h1.title Awesome Team
+        div.separator
+        div.team-menu
+          div.team-menu-item
+            img.team-menu-item__img
+            h4.team-menu-item__name Jimmy Letterman
+            p.team-menu-item__role Marketer
+            div.team-menu-item-social
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-twitter(aria-hidden='true')
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-facebook(aria-hidden='true')
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-pinterest-p(aria-hidden='true')
+          div.team-menu-item
+            img.team-menu-item__img
+            h4.team-menu-item__name Rico Massimo
+            p.team-menu-item__role Coder
+            div.team-menu-item-social
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-twitter(aria-hidden='true')
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-facebook(aria-hidden='true')
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-google-plus(aria-hidden='true')
+          div.team-menu-item
+            img.team-menu-item__img
+            h4.team-menu-item__name Lisa Mason
+            p.team-menu-item__role Graphic Designer
+            div.team-menu-item-social
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-facebook(aria-hidden='true')
+              a.team-menu-item-social-link(href="#")
+                i.fa.fa-pinterest-p(aria-hidden='true')
+        p.team-description Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.
+    footer.footer-fix#contact
+      div.footer
+        div.footer-contact
+          h1.title.footer-title Contact Us
+          p.footer-contact-description Don’t be shy, drop us an email and say hello! We are a really nice bunch of people :)  
+          div.footer-contact-menu
+            p.footer-contact-menu-item.mobile-number (416) 555-0000
+            p.footer-contact-menu-item.mail hello@dreams.com
+            p.footer-contact-menu-item.twitter @dreams
+            p.footer-contact-menu-item.facebook facebook.com/dreams
+            p.footer-contact-menu-item.google plus.com/dreams
+            p.footer-contact-menu-item.pinteres pinterest.com/dreams
+        form.footer-contact-form
+          input.footer-contact-form-name.footer-contact-form-inp(name="name", required='', value='', placeholder='Your Name *')
+          input.footer-contact-form-e-mail.footer-contact-form-inp(type="email", name='mail', required='', value='', placeholder='Your E-mail *')
+          textarea.footer-contact-form-message.footer-contact-form-inp(name='message', required='', value='', placeholder='Your Message *')
+          button.footer-contact-form-send Send Message
+        div.footer-copyright
+          div.footer-copyright__separator
+          p.footer-copyright__description © 2014 Dreams By FreebiesXpress
