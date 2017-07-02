@@ -174,10 +174,10 @@
           </div>
         </div>
         <form class="footer-contact-form">
-          <input name="name" required="" value="" placeholder="Your Name *" class="footer-contact-form-name footer-contact-form-inp">
-          <input type="email" name="mail" required="" value="" placeholder="Your E-mail *" class="footer-contact-form-e-mail footer-contact-form-inp">
-          <textarea name="message" required="" value="" placeholder="Your Message *" class="footer-contact-form-message footer-contact-form-inp"></textarea>
-          <button class="footer-contact-form-send">Send Message</button>
+          <input id="name" name="name" required="" value="" placeholder="Your Name *" class="footer-contact-form-name footer-contact-form-inp">
+          <input id="email" type="email" name="mail" required="" value="" placeholder="Your E-mail *" class="footer-contact-form-e-mail footer-contact-form-inp">
+          <textarea id="text" name="message" required="" value="" placeholder="Your Message *" class="footer-contact-form-message footer-contact-form-inp"></textarea>
+          <button onclick="sendContact()" type="button" class="footer-contact-form-send">Send Message</button>
         </form>
         <div class="footer-copyright">
           <div class="footer-copyright__separator"></div>

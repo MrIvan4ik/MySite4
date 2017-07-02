@@ -171,10 +171,10 @@ html
             p.footer-contact-menu-item.google plus.com/dreams
             p.footer-contact-menu-item.pinteres pinterest.com/dreams
         form.footer-contact-form
-          input.footer-contact-form-name.footer-contact-form-inp(name="name", required='', value='', placeholder='Your Name *')
-          input.footer-contact-form-e-mail.footer-contact-form-inp(type="email", name='mail', required='', value='', placeholder='Your E-mail *')
-          textarea.footer-contact-form-message.footer-contact-form-inp(name='message', required='', value='', placeholder='Your Message *')
-          button.footer-contact-form-send Send Message
+          input#name.footer-contact-form-name.footer-contact-form-inp(name="name", required='', value='', placeholder='Your Name *')
+          input#email.footer-contact-form-e-mail.footer-contact-form-inp(type="email", name='mail', required='', value='', placeholder='Your E-mail *')
+          textarea#text.footer-contact-form-message.footer-contact-form-inp(name='message', required='', value='', placeholder='Your Message *')
+          button.footer-contact-form-send(onclick="sendContact()", type="button") Send Message
         div.footer-copyright
           div.footer-copyright__separator
           p.footer-copyright__description © 2014 Dreams By FreebiesXpress
