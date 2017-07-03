@@ -16,11 +16,22 @@ function sendContact() {
   };
 
 
-  function checkEmail(email) {
-    if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
-      contact.email = "Invalid"
+  // function checkEmail(email) {
+  //   if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+  //     contact.email = "Invalid"
+  //   };
+  // };
+  function checkAll(arr) {
+    if (arr.email.indexOf("@") == -1 || arr.email.indexOf(".") == -1) {
+      arr.email = "Invalid"
     };
+    if (arr.name.length < 3) {
+      arr.name = "Invalid"
+    }
+    if (arr.text.length <= 10) {
+      arr.text = "Invalid"
+    }
   };
-  checkEmail(contact.email);
+  checkAll(contact);
   alert(JSON.stringify(contact))
 }
